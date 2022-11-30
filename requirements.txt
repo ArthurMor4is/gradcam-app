@@ -1,0 +1,6 @@
+starlette==0.20.4
+uvicorn==0.18.3
+tensorflow==2.11.0
+matplotlib==3.6.2
+streamlit==1.15.1
+streamlit-image-select==0.5.1
