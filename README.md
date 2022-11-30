@@ -25,6 +25,8 @@ I wrote a post explaining how this technique works, you can find it on [my mediu
 
 The implementation of this application was inspired by a [keras tutorial](https://keras.io/examples/vision/grad_cam/).
 
+**Streamlit app:** ```localhost:8501```
+
 <img
-  src="streamlit/pages/images/app_diagram.png"
-  style="display: block; margin-left: auto; margin-right: auto; max-width: 500px">
+  src="utils/grad_cam_demo.gif"
+  style="display: block; margin-left: auto; margin-right: auto; max-width: 550px">
