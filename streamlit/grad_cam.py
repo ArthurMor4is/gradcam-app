@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import time
 import requests
 import json
 from streamlit_image_select import image_select

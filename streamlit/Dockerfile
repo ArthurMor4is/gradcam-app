@@ -12,4 +12,4 @@ EXPOSE 8501
 
 COPY . .
 
-CMD ["streamlit", "run", "home.py"]
+CMD ["streamlit", "run", "grad_cam.py"]
