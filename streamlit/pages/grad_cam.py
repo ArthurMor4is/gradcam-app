@@ -54,7 +54,8 @@ def get_heatmap(img, img_class):
 
     array = keras.preprocessing.image.img_to_array(img)
     response = requests.post(
-        "http://gradcam:8000/heatmap", json={"img_array": array.tolist(), "img_class": img_class}
+        "http://gradcam:8000/heatmap",
+        json={"img_array": array.tolist(), "img_class": img_class},
     )
     return json.loads(response.text)["data"]
 

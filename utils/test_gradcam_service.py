@@ -12,4 +12,4 @@ img_size = (299, 299)
 img = keras.preprocessing.image.load_img(img_path, target_size=img_size)
 array = keras.preprocessing.image.img_to_array(img)
 
-response = client.post("/heatmap", json={'img_array': array.tolist()})
+response = client.post("/heatmap", json={"img_array": array.tolist()})
