@@ -1,11 +1,11 @@
 version: "3.9"
 services:
   gradcam:
-    build: ./services/gradcam
+    build: ./gradcam
     ports:
       - "8000:8000"
     volumes:
-      - ./services/gradcam:/app
+      - ./gradcam:/app
   streamlit:
     build: ./streamlit
     ports:
