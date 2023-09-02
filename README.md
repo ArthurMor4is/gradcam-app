@@ -4,9 +4,25 @@
 
 > **Note:** This is a project for learning purposes only. The concepts applied here are not necessarily proposed for a production environment.
 
-## How to test
+Grad-CAM APP is a project for demonstrate how to use [streamlit](https://streamlit.io/) and [starlette](https://www.starlette.io/) 
+in an application that explain image classifications.
 
-```docker compose up```
+<img
+  src="utils/app_arch.png"
+  style="display: block; margin-left: auto; margin-right: auto; max-width: 550px">
+
+## How run the app 🚀
+
+1. ```docker compose up```
+
+2. Take a cup of coffee ☕️
+
+3. [```localhost:8501```](http://localhost:8501) 🔗
+
+<img
+  src="utils/grad_cam_demo.gif"
+  style="display: block; margin-left: auto; margin-right: auto; max-width: 550px">
+
 
 ## Grad CAM
 
@@ -16,9 +32,3 @@ any convolutional neural network regardless of its architecture.
 I wrote a post explaining how this technique works, you can find it on [my medium page](https://medium.com/@arthurfmorais).
 
 The implementation of this application was inspired by a [keras tutorial](https://keras.io/examples/vision/grad_cam/).
-
-**Streamlit app:** ```localhost:8501```
-
-<img
-  src="utils/grad_cam_demo.gif"
-  style="display: block; margin-left: auto; margin-right: auto; max-width: 550px">
