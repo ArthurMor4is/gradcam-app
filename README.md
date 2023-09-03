@@ -5,7 +5,7 @@
 > **Note:** This is a project for learning purposes only. The concepts applied here are not necessarily proposed for a production environment.
 
 Grad-CAM APP is a project for demonstrate how to use [streamlit](https://streamlit.io/) and [starlette](https://www.starlette.io/) 
-in an application that explain image classifications.
+in an application that explain image classifications using heatmaps.
 
 <img
   src="utils/app_arch.png"
