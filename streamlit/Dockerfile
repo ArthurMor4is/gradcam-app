@@ -12,4 +12,4 @@ EXPOSE 8501
 
 COPY . .
 
-CMD ["streamlit", "run", "grad_cam.py"]
+CMD ["./init_gradcam.sh"]
